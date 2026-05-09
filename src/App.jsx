@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { ConfigProvider } from 'antd';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import AppLayout from './components/Layout/AppLayout';
-import ErrorBoundary from './components/Errorundary';
+import ErrorBoundary from './components/ErrorBoundary';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
@@ -22,7 +22,6 @@ function AppRoutes() {
         <Routes>
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
-
             <Route path="/" element={
                 <ProtectedRoute>
                     <ErrorBoundary>
@@ -37,7 +36,6 @@ function AppRoutes() {
                 <Route path="clients" element={<Clients />} />
                 <Route path="profile" element={<Profile />} />
             </Route>
-
             <Route path="404" element={<NotFound />} />
             <Route path="*" element={<Navigate to="/dashboard" />} />
         </Routes>
