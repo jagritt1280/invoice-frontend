@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b089fb-ecf1-4c5a-a7e0-3d31d1b85c5e" name="Changes" comment="Fix unused import warnings">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="70b089fb-ecf1-4c5a-a7e0-3d31d1b85c5e" name="Changes" comment="Remove netlify.toml, deploying to Render">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netlify.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/axios.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778359927464</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Remove netlify.toml, deploying to Render">
+      <option name="closed" value="true" />
+      <created>1778401097011</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1778401097011</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +132,7 @@
     <MESSAGE value="Day 12 - Polish, error boundary, empty states, improved layout" />
     <MESSAGE value="Day 13 - Search, stats, profile, error boundary, polish" />
     <MESSAGE value="Fix unused import warnings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix unused import warnings" />
+    <MESSAGE value="Remove netlify.toml, deploying to Render" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove netlify.toml, deploying to Render" />
   </component>
 </project>
